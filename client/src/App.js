@@ -1,4 +1,4 @@
-import QuoteComponent from "./QuoteComponent";
+import QuoteComponent from "./components/QuoteComponent";
 
 function App () {
   return (

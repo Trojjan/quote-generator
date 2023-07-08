@@ -89,7 +89,6 @@ button {
     height: 40px;
     position: relative;
   }
-  
   .spinner::after {
     content: "";
     display: block;
@@ -117,14 +116,12 @@ button {
   .copy-button:hover {
     background-color: #45a049;
   }
-  
 .copy-button-container {
     position: relative;
     display: flex;
     justify-content: center;
     top: 120px;
 }
-
 footer {
    position: absolute;
    left: 0;
@@ -135,11 +132,11 @@ footer {
 }
 @font-face {
     font-family: 'Sambosa';
-    src: url(./Sambosa\ Bold.ttf);
+    src: url(../fonts/Sambosa\ Bold.ttf);
 }
 @font-face {
     font-family: 'expSpace';
-    src: url(./exoSpace.ttf);
+    src: url(../fonts/exoSpace.ttf);
 }
 @media (max-width: 700px) {
   .greeting-text {
