@@ -12,7 +12,7 @@ function QuoteComponent() {
   const generateQuote = async () => {
     try {
       setLoading(true);
-      const response = await axios.get('https://quote-generator-keqq.onrender.com');
+      const response = await axios.get('https://quote-generator-keqq.onrender.com/api/quotes');
       const quoteData = response.data;
       setQuote({
         text: quoteData.text,
